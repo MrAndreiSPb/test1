@@ -1,0 +1,6 @@
+answer = str(input())
+a = answer[::-1]
+if answer == a:
+  print("True")
+else:
+  print("False")
